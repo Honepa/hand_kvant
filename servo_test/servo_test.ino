@@ -23,7 +23,7 @@ void setup()
 void loop() 
 {
   // put your main code here, to run repeatedly:
-  for(int i = 0; i <= 270; i++)
+  /*for(int i = 0; i <= 270; i++)
   {
     palm.write(i);
     delay(50);
@@ -33,7 +33,7 @@ void loop()
     palm.write(i);
     delay(50);
   }
-  delay(500);
+  delay(500); */
   for(int i = 0; i <= 270; i++)
   {
     thumb.write(i);
